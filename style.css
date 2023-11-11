@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.site >div{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-rows: 10% 90%;
+   grid-template-areas: 
+    "titra titra"
+    "video video"
+}
